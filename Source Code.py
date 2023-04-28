@@ -20,7 +20,7 @@ output_label.pack(padx=0, pady=0)
 
 
 # Read in the dataset
-df = pd.read_csv('Book2.csv')
+df = pd.read_csv('Breast_Cancer_Dataset.csv')
 
 # Perform label encoding on the categorical columns
 le = LabelEncoder()
